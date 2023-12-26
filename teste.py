@@ -7,8 +7,8 @@ import data as dt
 
 server = '172.16.22.212' 
 database = 'CIGAM' 
-username = 'sa' 
-password = 'Denteck@01'  
+username = '' 
+password = ''  
 cnxn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
 cursor = cnxn.cursor()
 
